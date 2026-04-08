@@ -51,7 +51,6 @@ var products = [
 
 let cart = [];
 
-// Render Products (HTML bhi JS se ban raha hai 🔥)
 function displayProducts() {
   let container = document.getElementById("product-list");
   container.innerHTML = "";
