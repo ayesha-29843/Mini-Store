@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar --
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyStore 🛒</a>
+    <button class="btn btn-warning" onclick="showCart()">
+      Cart (<span id="cart-count">0</span>)
+    </button>
+  </div>
+</nav>
+-->
+
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">🛍️🛒AS MINI-STORE🏷️</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul> -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Products -->
+<div class="container mt-4">
+  <div class="row" id="product-list"></div>
+</div>
+<!-----
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <h5>MyStore ❤️</h5>
+  <p>© 2026 All Rights Reserved</p>
+</footer>
+-->
+
+<div class="container-fluid">
+<footer class="bg-light text-dark pt-5 pb-3 mt-5 foot">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-4 mb-3">
+        <h5>About Us</h5>
+        <p>We provide a limited things but best quality, Explore, and grow with us!</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled text-dark">
+          <li><a href="#" class="footer-link text-dark">Home</a></li>
+          <li><a href="#" class="footer-link text-dark">Categories</a></li>
+          <li><a href="#" class="footer-link text-dark">Contact</a></li>
+          <li><a href="#" class="footer-link text-dark">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4 mb-3">
+        <h5>Follow Us</h5>
+        <a href="#" class="text-light me-2"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="text-light me-2"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="text-light me-2"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="text-light"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+    </div>
+
+    <hr class="bg-secondary">
+
+    <div class="text-center small">
+      &copy; 2026 YourMiniStore. All rights reserved.
+    </div>
+  </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-big-circles@3/tsparticles.preset.bigCircles.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a6450bd60a.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
